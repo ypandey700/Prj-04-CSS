@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+.nav1{
+    width: 100%;
+    height: 8%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav1-1{
+    display: flex;
+    
+    
+}
+.box1{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.box2{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.nav1-2{
+    height: 100%;
+    gap: 40px;
+    display: flex;
+    align-items: end;
+    /* background-color: rgb(205, 46, 93); */
+}
+.nav1-2 h3{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.nav1-2 span{
+    padding-left: 15px;
+    color: rgb(143, 142, 142);
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    height: 8%;
+     gap: 65px;
+    /* background-color: red; */
+    
+}
+.nav2 h3{
+   
+    font-size: 14px;
+    font-weight: 500;
+    
+    text-transform :uppercase;
+
+}
+#centre{
+    width: 100%;
+    height: calc(100% - 16%);
+    /* background-color: aqua; */
+}
+.text-content{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    /* background-color: rebeccapurple; */
+    
+    overflow-x: auto;
+
+}
+.text-content::-webkit-scrollbar
+{
+    background-color: transparent;
+    height:7px;
+    width: 50px;
+   
+}
+.text-content::-webkit-scrollbar-thumb
+{
+    background-color: orangered;
+    
+    
+}
+
+
+.elem{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+.elem h2{
+    
+    font-size: 130px;
+    font-weight: 100;
+
+
+}
+.img{
+    width: 100%;
+    height: 60%;
+    background-color: aquamarine;
+    overflow-x: auto;
+    display: flex;
+
+}
+.img::-webkit-scrollbar
+{
+    display: none;
+}
+.img img{
+    flex-shrink: 0;
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
